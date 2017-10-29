@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+.bannerbox img{ width:100%; margin:0 auto; height: auto;}
+.main{ max-width: 1080px; margin:0 auto;}
+ 
+.option li{
+    display: inline-block;
+    padding: 10px 15px;
+    line-height: 40px;
+    color: black;
+}
+.option li:hover,.option li.cur{background: #B08D89;color: #fff;}
+.option li a{}
+
+.option_box{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px #B08D89 solid;
+    border-top: 1px #B08D89 solid;
+    margin: 60px 0;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+.option_box{
+    margin: 20px 0;
+}
+
+}
+
+h2{
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+h4{ font-size:22px;color:#b08d89}
+p{ color:#777777; line-height: 32px; padding-bottom: 12px;}
+.comestic{border:1px #cccccc dashed; margin: 0 10px;}
+.col img{width:100%;}
+lebal{color:black;font-size:14px }
+text{ color:#b08d89; font-size:14px}
+.content h4{padding-bottom: 1px; padding-top: 16px;}
+.content{ padding-left:16px; padding-bottom: 100px;padding-right:16px; }
+.row .co{padding:10px 0;}
+.row {
+    margin: 0 auto;
+    max-width: 1080px;
+    /* padding: 0 10px; */
+}
+.col-6 {
+    float: left;
+}
+
+.col-6 .content {
+    padding-right: 8px;
+    position: relative;
+    padding-left: 8px;
+}
+
+.nopadding { padding-right: 0px;
+}
+
+.col-6 .content img {
+    width: 100%;
+}
+
+.col-6 .content p {
+    margin-left: 20px;
+    line-height: 24px;
+}
+
+
+.item {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.item li {
+    float: left;
+    padding-top: 6px;
+}
+
+.item a {
+    font-size: 12px;
+    line-height: 20px;
+    color: #343434;
+}
+
+.item a:hover {
+    color: #b08d89;
+}
+.paddingleft{ padding-left:5px;}
+.checkin{width:150px; height: 40px;
+    border: 2px solid #ccc;line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px;float: right;}
+.checkin:hover {
+    background: #ccc;
+    color: #fff;
+}
+input{ margin-right: 16px;}
+.tel p{padding-bottom: 0px;}
+/* page*/
+
+
+.page_box input{ width:42px;height=37px;border: #ccc solid 2px; text-align: center; line-height: 24px; float:left;}
+
+.page_box{ margin:0 auto;  width:50%; margin-left: 100px}

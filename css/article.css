@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bannerbox img{ width:100%; margin:0 auto; height: auto;}
+.bannerbox{ margin-bottom:20px;}
+.main{ max-width: 1080px; margin:0 auto;}
+.location{ margin: 0 auto; border-bottom: 1px solid #ccc; max-width: 1080px; margin-bottom: 40px; }
+.location li{ padding-bottom:20px;}
+.location a{ color:#3c3b3b;}
+.location a:hover{ cursor: pointer;}
+.main{ max-width:960px; margin: 0 auto;padding: 0px 10px;}
+.girlbox img{ width:100%;}
+h2{ fong-size:24px; text-align: center; line-height: 44px;color: black;    line-height: 1.5em;}
+p{line-height: 28px; }
+h3{font-size: 20px; line-height: 40px;color:black;}
+.girlbox{ positon:relative}
+.center{text-align: center; }
+
+.article{margin: 0 auto; border-top: 1px solid #ccc; max-width: 1080px; margin-bottom: 40px; margin-top:40px;}
+.article li{ padding-top:16px;}
+.article_left{display:inline-block; float: left;}
+.article_left a{color: #000;}
+
+.btn_about { float: right;
+    border: 2px solid #ccc;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+    margin-top: 30px;
+display:inline-block;}
+
+.btn_about a{ color:#999;}
+
+.btn_click{
+    background: #ccc;
+    color: #fff;
+}
+
+.btn_about:hover {
+    background: #ccc;
+    color: #fff;
+cursor: pointer;}
+
+.more_gt{
+    margin-left: 20px;
+}
+
+
+
+
+
+/*service*/
+
+
+.col-6 {
+    float: left;
+}
+
+.col-6 .content {
+    padding: 10px;
+}
+
+.nopadding { padding-right: 0px;
+}
+
+.col-6 .content img {
+    width: 100%;
+}
+
+.col-6 .content p {
+    margin-left: 20px;
+    line-height: 24px;
+}
+
+.p_title {
+    color: black;
+    font-weight: bold;
+    padding: 8px 0px;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.row {
+    margin: 0 auto;
+    max-width: 1080px;
+    /* padding: 0 10px; */
+    margin-bottom: 60px;
+}
+.content {
+    position: relative;
+}
+
+.content img {
+    width: 100%;
+}
+
+.item {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.item li {
+    float: left;
+    padding-top: 6px;
+}
+
+.item a {
+    font-size: 12px;
+    line-height: 20px;
+    color: #343434;
+}
+
+.item a:hover {
+    color: #b08d89;
+}
+
+h4 {
+    font-size: 18px;
+    color: #b08d89;
+}
+
+@media (max-width: 768px) {
+.col {
+    width: 100%;
+}
+
+
+h2{line-height:1.5em}
+.btn_about{
+    margin-right: 30px;
+}
+}
+
+
+
+
+

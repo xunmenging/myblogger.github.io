@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ban img {
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 1080px;
+    margin-bottom: 60px;
+}
+
+.col-6 {
+    float: left;
+}
+
+.nopadding {
+    padding-right: 0px;
+}
+
+.col-6 .content img {
+    width: 100%;
+}
+.col-6 .content img.do {
+    padding:0 10px;
+}
+
+.col-6 .content p {
+    margin: 0 20px;
+    line-height: 24px;
+}
+
+.p_title {
+    color: black;
+    font-weight: bold;
+    padding: 8px 0px;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.row {
+    margin: 0 auto;
+    max-width: 1045px;
+}
+
+/*service*/
+.content {
+    position: relative;
+}
+
+.content img {
+    width: 100%;
+}
+
+.item {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.item li {
+    float: left;
+    padding-top: 6px;
+}
+
+.item a {
+    font-size: 12px;
+    line-height: 20px;
+    color: #343434;
+}
+
+.item a:hover {
+    color: #b08d89;
+}
+
+h4 {
+    font-size: 18px;
+    color: #b08d89;
+}
+
+@media (max-width: 580px) {
+    .col {
+        width: 100%;
+    }
+}
+
+#btn1{
+    margin-top: 20px;
+    margin-right: 30px;
+    line-height: 35px;
+}
+#btn2{
+    margin-top: 30px;
+    margin-right: 30px;
+    line-height: 35px;
+}
+#btn3{
+    margin-top: 72px;
+    margin-right: 30px;
+    line-height: 35px;
+}
+#con1{
+    margin-top: 20px;
+}
+#con2{
+    margin-top: 20px;
+}
+#con3{
+    margin-top: 20px;
+}
+.ca{
+    padding:10px 0;
+}
+
+@media only screen and (max-width: 768px){
+    h4 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .item a, .item li {
+        font-size: 18px;
+        line-height: 28px;
+        color: #7c7c7c;
+    }
+
+
+}
+
+

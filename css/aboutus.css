@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.ban img{ width:100%;
+         height: auto;}
+h2{ font-size:1.5em ; text-align: center; margin-top: 60px;margin-bottom:60px; }
+h3{ font-size: 24px; padding-bottom: 10px; }
+.col-6 img{ width:70%; float:right;}
+.text{ float:right; padding-left:80px; padding-top:24px; }
+.text p{  color: #7c7c7c;
+    font-size: 14px;
+    line-height: 32px;}
+.content{padding-bottom: 60px;}
+
+@media only screen and (max-width: 2000px)
+{
+#map{height:550px  !important;}
+}
+
+@media only screen and (max-width: 1200px)
+{
+#map{height:500px  !important;}
+}
+
+@media only screen and (max-width: 992px)
+{
+#map{height:350px  !important;}
+}
+
+@media only screen and (max-width: 768px)
+{
+#map{height:200px !important;}
+.col-6 img{ width:100%;}
+.text{width:100%; float: left;margin-left: 10%;padding-left: 0}
+}

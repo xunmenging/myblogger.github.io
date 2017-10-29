@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container {
+    width: 67%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 60px;
+}
+
+h2 span {
+    font-size: 15px;
+}
+
+.bannerbox img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.fenx1 {
+    float: left;
+    width: 23.7%;
+    margin-top: 60px;
+}
+
+.fenx {
+    float: left;
+    margin-left: 15px;
+    width: 23.7%;
+    margin-top: 60px;
+}
+
+.rizi {
+    width: 100%;
+    margin-top: 30px;
+    border-bottom: 1px #807E7E solid;
+    padding-bottom: 30px;
+}
+
+.rizi_left {
+    width: 43.5%;
+    float: left;
+}
+
+.rizi_right {
+    width: 52%;
+    float: right;
+}
+
+.til2 {
+    width: 150px;
+    height: 34px;
+    display: block;
+    background: #b08d89;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.rizi_right span {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    font-family: "Microsoft Yahei", "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3";
+}
+
+.btn_about .more_gt {
+    color: #777;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.rizi_right p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #777;
+    font-family: "微软雅黑";
+}
+
+.qu {
+    margin-top: 20px;
+}
+
+.butt {
+    margin: auto;
+    width: 174px;
+}
+
+.butt input {
+    border: 1px solid #b08d89;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    margin-top: 30px;
+    font-size: 16px;
+    color: black;
+}
+
+.env_title {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.font_h1 {
+    font-size: 26px;
+    font-family: "微软雅黑";
+    /*padding-top: 30px;*/
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .til {
+        width: 40%;
+        margin-top: 30px;
+    }
+
+    .fenx4 {
+        width: 49%;
+        margin-top: 20px;
+        margin-left: inherit;
+    }
+
+    .fenx5 {
+        float: right;
+        width: 49%;
+        margin-left: inherit;
+        margin-top: 20px;
+    }
+
+    .fenx3 {
+        margin-left: 20px;
+    }
+
+    .rizi {
+        width: 100%;
+        margin-top: 30px;
+        border-bottom: 1px #807E7E solid;
+        padding-bottom: 30px;
+    }
+
+    .rizi_left {
+        width: 100%;
+        float: none;
+    }
+
+    .rizi_right {
+        margin-top: 20px;
+        padding: 0 10px;
+        width: 100%;
+        float: none;
+    }
+
+    .til2 {
+        width: 150px;
+        height: 34px;
+        display: block;
+        background: #b08d89;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .rizi_right > span {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .rizi_right > p {
+        margin-top: 5px;
+        font-size: 14px;
+        color: #777;
+        font-family: "微软雅黑";
+    }
+
+    .qu {
+        margin-top: 20px;
+    }
+
+    .butt {
+        margin: auto;
+        width: 174px;
+    }
+
+    .butt input {
+        border: 1px solid #b08d89;
+        width: 40px;
+        height: 40px;
+        background: #fff;
+        margin-top: 30px;
+        font-size: 16px;
+        color: #b08d89;
+    }
+}

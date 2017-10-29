@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*导航公共部分*/
+.img_banner_bg_hold {
+    position: relative;
+}
+
+.img_banner_bg_hold img {
+    width: 100%;
+    height: auto;
+}
+
+.gap_between_nav{
+    display: none;
+}
+
+.big_nav_log_home{
+    display: block;
+}
+
+.big_nav_log_no_other{
+    display: none;
+}
+
+.nav li a {
+    color: #fff;
+}
+
+.nav li p {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav .tel {
+    border: 1px #fff solid;
+}
+.nav li.nav_home a{
+    color: #fff;
+    text-decoration: none;
+}
+#nav_btn_phone{
+    cursor:default;
+}
+/*内容字体公共部分*/
+.font_h1 {
+    font-size: 46px;
+    font-family: "微软雅黑";
+    /*padding-top: 30px;*/
+}
+.font_h1 a{
+    font-size: 46px;
+    font-family: "微软雅黑";
+    color: black;
+}
+
+.font_h2 {
+    font-size: 28px;
+    color: #b08d89;
+    padding: 20px 0;
+}
+.font_h2 a{
+    color: #b08d89;
+}
+
+.font_p {
+    color: #7c7c7c;
+    font-size: 14px;
+    padding-top: 20px;
+    line-height: 22px;
+}
+
+.font_p5 {
+    color: #7c7c7c;
+    font-size: 14px;
+    /*padding-top: 10px;*/
+    line-height: 22px;
+font-family: 微软雅黑;}
+
+/*字体内容的横线*/
+.line {
+    padding-top: 0;
+    margin-top: 0;
+    size: 1px;
+    color: #ccc;
+}
+
+/*医学整形*/
+.area_aesthetic {
+    float: right;
+}
+
+.font_aesthetic {
+    padding-left: 40%;
+    padding-right: 11%;
+}
+
+.img_hold_aesthetic {
+    /*width: 70%;*/
+    margin-right: 25%;
+}
+
+/*面部微创*/
+.row_facial {
+    background-color: #f6e8ed;
+}
+
+.img_hold_facial {
+    width: 100%;
+}
+
+.font_facial_hold .btn_about {
+    margin-right: 32%;
+    margin-top: 8%;
+    float: right;
+}
+
+.font_facial {
+    padding-top: 10%;
+    padding-right: 30%;
+}
+
+/*仪器美容*/
+.font_instrument {
+    padding-left: 10%;
+    margin-right: 32%;
+}
+
+.font_instrument .btn_about {
+    float: right;
+}
+
+/*健康管理*/
+.font_health {
+    padding-left: 33%;
+    padding-right: 20%
+}
+
+/*联系我们*/
+.contract_us {
+    padding-right: 10%;
+    text-align: right;
+}
+
+.row img {
+    width: 100%;
+    height: auto;
+}
+
+.row_split {
+    margin-top: 37px;
+}
+
+.img_hold_instrument {
+    width: 71%;
+    float: right;
+}
+
+.row_health {
+    background-color: #f1f2f2;
+    padding-top: 40px;
+padding-bottom:40px; }
+
+.img_hold_health {
+    width: 70%;
+}
+
+.font_health_hold {
+    float: right;
+}
+
+.img_map {
+    width: 57%;
+    margin-top: 12%;
+    margin-left: 8%;
+}
+
+.company_name{
+	line-height: 42px;
+font-size:20px;}
+
+.company_name + .font_p5{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .line {
+        display: none;
+    }
+
+    .font_p {
+        padding-top: 0px;
+        margin-top: 0;
+    }
+
+    .font_facial_hold .btn_about, .font_instrument .btn_about {
+        float: none;
+    }
+
+
+    .font_margin_left {
+        margin-left: 6.8%;
+    }
+
+    .foot_margin_right {
+        margin-right: 6.8%;
+    }
+
+    .font_margin_top {
+        margin-top: 5.0%;
+    }
+
+    .img_hold {
+        width: 100%;
+    }
+
+    .font_aesthetic {
+        padding-left: 0px;
+        float: none;
+    }
+
+    .row_aesthetic {
+        margin-top: 0;
+    }
+
+    .font_facial_hold {
+        background-color: white;
+    }
+
+    .font_facial {
+        padding-left: 0px;
+        padding-top: 0;
+    }
+
+    .font_instrument {
+        padding-left: 0px;
+    }
+
+    .font_health_hold {
+        background-color: white;
+    }
+
+    .row_health {
+        background-color: white;
+        padding-top: 0px;
+    }
+
+    .font_health {
+        padding-left: 0px;
+    }
+
+    .company_name {
+        display: none;
+    }
+    .company_name a{
+        color: black;
+    }
+
+    .img_map {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .contract_us {
+        text-align: left;
+    }
+
+
+    .contract_us_box{
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+
+}
